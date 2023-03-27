@@ -1,0 +1,19 @@
+\documentclass[12pt, a4paper]{article}
+
+\usepackage{multirow}
+
+\begin{document}
+
+\begin{tabular}{|l|l|l|l|}\hline
+  \multirow{8}{*}{numeric literals} & \multirow{5}{*}{integers} & in decimal & \verb|8743| \\ \cline{3-4}
+  & & \multirow{2}{*}{in octal} & \verb|0o7464| \\ \cline{4-4}
+  & & & \verb|0O103| \\ \cline{3-4}
+  & & \multirow{2}{*}{in hexadecimal} & \verb|0x5A0FF| \\ \cline{4-4}
+  & & & \verb|0xE0F2| \\ \cline{2-4}
+  & \multirow{3}{*}{fractionals} & \multirow{3}{*}{in decimal} & \verb|140.58| \\ \cline{4-4}
+  & & & \verb|8.04e7| \\ \cline{4-4}
+  & & & \verb|0.347E+12| \\
+  \hline
+\end{tabular}
+
+\end{document}

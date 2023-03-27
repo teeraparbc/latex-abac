@@ -1,0 +1,22 @@
+\documentclass[12pt, a4paper]{article}
+
+\usepackage{graphicx}
+
+\begin{document}
+
+\begin{figure}
+	\caption{\label{fig1} Caption above the figure}
+	\includegraphics{./figures/latex.pdf}
+\end{figure}
+
+Reference to the first figure~\ref{fig1}
+
+\setcounter{figure}{2}
+\begin{figure}
+	\includegraphics{./figures/latex.pdf}
+	\caption{\label{fig2} Caption below the figure}
+\end{figure}
+
+Reference to the second figure~\ref{fig2}
+
+\end{document}

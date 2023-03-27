@@ -1,0 +1,17 @@
+\documentclass[10pt, a4paper]{article}
+
+\begin{document}
+
+\setcounter{table}{10}
+\begin{table}\center
+
+\begin{tabular}{|c|c|c|}
+	\hline
+	&& \\
+	Normal cell & {\parbox[t]{1cm}{This is a narrow column\\new par}} & \parbox[t]{4cm}{The newline \\ command works} \\
+	\hline
+\end{tabular}
+{\caption{A table}}
+\end{table}
+
+\end{document}
